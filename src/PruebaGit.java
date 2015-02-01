@@ -9,13 +9,17 @@ public class PruebaGit {
         num2 = 2;
 
         res = num1 + num2;
+
+        System.out.println(res);
+    }
+
+    public void saludo(){
+        System.out.print("Hola Mundo!!!");
     }
 
     public static void main(String args[]){
         PruebaGit info = new PruebaGit();
         info.suma();
-
-        System.out.print("Hola Mundo!!!");
-        System.out.println("Resultado: " + info.res);
+        info.saludo();
     }
 }
