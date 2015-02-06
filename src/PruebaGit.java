@@ -15,6 +15,7 @@ public class PruebaGit {
 
     public void saludo(){
         System.out.print("Hola Mundo!!!");
+        System.out.print("Prueba GitHub");
     }
 
     public static void main(String args[]){
